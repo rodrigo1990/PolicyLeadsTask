@@ -1,0 +1,21 @@
+#indexBody{
+    width:100vw;
+    height:100vh;
+    padding:0;
+    margin:0;
+    color:white;
+    h1{
+        margin:auto;
+        text-align: center;
+
+        a{
+            color:white;
+            transition-duration: 500ms;
+            text-decoration: none;;
+        }
+        a:hover{
+            color:gray;
+            transition-duration: 500ms;
+        }
+    }
+}

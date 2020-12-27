@@ -1,0 +1,22 @@
+ul.nav{
+    background:$seconday-color;
+    border-bottom: 3px solid $primary-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    height: 79px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+    ul.nav{
+        justify-content: center;
+        li:nth-child(2){
+            display:none;
+        }
+    }
+}

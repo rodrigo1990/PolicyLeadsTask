@@ -1,0 +1,19 @@
+$primary-color: #f5c03d;
+$seconday-color: #ebebeb;
+@import 'index';
+@import 'nav';
+@import 'news';
+@import 'footer';
+//generals
+body{
+    background-color:#f5f3f2;
+}
+ul{
+    padding:0;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+
+}

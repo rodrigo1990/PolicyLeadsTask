@@ -1,0 +1,38 @@
+
+h1.advice{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+}
+section#index {
+    margin-top:79px + 10;
+    ul {
+        list-style-type: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        li{
+            flex-basis: 300px;
+            margin: 14px 14px;
+            border: 1px solid gray;
+            border-radius: 4px;
+            padding: 25px;
+            background:white;
+
+            footer{
+                p{
+                    margin:0;
+                }
+            }
+        
+        }
+    } 
+    
+    h1{
+        margin:auto;
+    }
+}

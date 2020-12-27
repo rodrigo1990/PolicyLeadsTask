@@ -1,0 +1,9 @@
+body>footer{
+    position:relative;
+    margin-bottom:0;
+    border:1px solid $primary-color;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    background: $seconday-color;
+}
